@@ -1,0 +1,38 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.board {
+  height: 500px;
+  width: 500px;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  background-color: aquamarine;
+}
+
+.row {
+  flex: 33%;
+  display: flex;
+  flex-direction: row;
+}
+
+.square {
+  flex: 33%;
+  flex-direction: column;
+  border: 1px solid black;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  color: black;
+}
